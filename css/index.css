@@ -1,0 +1,282 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.body{ 	 	background:#e6e6e6; 	 }
+
+.Header{ 	 }
+ 
+ .contenedor-titulo-web{ 
+	 margin-bottom:4px;
+	 width:100%;
+	 background:black;
+	 display:flex;
+ }
+
+ .logo{
+	 /* border-radius:20px; */
+	 /* margin:5px; */
+	 width:80px;
+	 height:80px;
+	 
+ } 
+ 
+.custom-logo{
+	 border-radius:20px;
+	 margin:7px;
+	 width:80px;
+	 height:80px;
+	 
+ }
+ 
+.texto-titulos{
+	margin-top:13px;
+
+}
+ 
+ .titulo{
+	 color:white;
+ }
+
+ 
+ .site-description{
+	 
+	 color:black;
+ }
+ 
+ 
+.nav-item{
+	/* background:red; */
+	/* padding:7px; */
+	display:flex;
+	/* flex-direction:row; */
+	/* align-content:space-between; */
+}
+
+.nav-item>ul{
+	background:blue;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+ }
+
+/* .items>.item{ */
+.nav-item>ul>li{
+	list-style:none;
+	padding:15px;
+}
+
+
+/* .items>.item>.link{ */
+.nav-item>ul>li>a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	padding:10px;
+	}
+	
+	
+/* /* .items>.item>.link:hover{background:grey; color:white;} */ 
+.nav-item> ul>li>a:hover{background:grey; color:white;} 
+	
+	
+/*menu*/ /*menu*/ /*menu*/
+/*Barrar social*/ /*Barrar social*/
+#social1{
+ position: fixed;
+ left:0;
+ /* top: 90%; */
+ top: 35%;
+
+}
+
+#social1  ul{
+  list-style: none;
+}
+
+#social1  ul li a{
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+   -webkit-transition: 500ms ease;
+  -o-transition:all 500ms ease;
+  transition: all 500ms ease;
+}
+
+#social1 ul li .icon-facebook{background: #3b5998;}
+#social1 ul li .icon-twitter{background: #00abf0;}
+#social1 ul li .icon-google-plus{background: #d95232}
+#social1 ul li .icon-pinterest{background: #ae181f;}
+#social1 ul li .icon-mail{background: #666666;}
+#social1 ul li .icon-Patreon{background: orange;}
+
+#social1 ul li a:hover{
+  padding: 10px 30px;
+  background: #000;
+}
+
+
+/*Barrar social*/ /*Barrar social*/
+/*Slidehow*/ /*Slidehow*/ /*Slidehow*/ /*Slidehow*/
+
+
+
+
+
+.mySlides {display: none}
+.slideshow-container .mySlides img {
+	/* vertical-align: middle;  */
+	width:100%; 
+	height:300px;
+	
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-bottom:10px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev, .next {
+  background-color: rgba(1,2,0,0.3);
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+/*Slidehow*/ /*Slidehow*/ /*Slidehow*/ /*Slidehow*/
+/*main*/ /*main*/ /*main*/
+
+
+.Main{
+	/* background:gray; */
+	/* background:white; */
+}
+
+
+.articulos{
+	/* background:white; */
+	}
+
+.articulo{
+	background:white;
+	padding:20px;
+	margin-bottom:10px;
+}
+
+.articulo-page{
+	background:white;
+	margin-bottom:10px;
+}
+
+.articulo-single{
+	background:white;
+	padding:20px;
+	margin-bottom:5px; 
+	
+}
+
+.group-titulos{}
+.titulo{ margin-bottom:8px;}
+.wp-post-image{ width:100%; height:250px; border-radius:5px;}
+.center{width:90%; height:250px; border-radius:5px;}
+.Articulo-text{
+	text-align:justify;
+}
+/*main*/ /*main*/ /*main*/
+
+
+
+
+
+/*Aside*/ /*Aside*/ /*Aside*/
+
+.Aside{
+	background:orange;
+}
+.Aside-title{
+	text-align:center;
+	margin:10px;
+	color:white;
+	
+}
+.Aside-text{
+	padding:7px;
+	margin:10px;
+	text-align:justify;
+	font-size:17px;
+	color:white;
+	
+}
+/*Aside*/ /*Aside*/ /*Aside*/
+
+ /*Footer*/ /*Footer*/ /*Footer*/ /*Footer*/
+.Footer{
+	
+	background:black;
+	padding:10px;
+}
+.footer-text{
+	clear:both;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	
+}
